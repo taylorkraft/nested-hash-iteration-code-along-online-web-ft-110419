@@ -29,7 +29,7 @@ def remove_strawberry(contacts)
    }
    
   contacts.each {|name, data|}
-      data.each {|attribute, details}
+      data.each {|attribute, details|}
       if attribute == "favorite_ice_cream_flavors"
         details.delete_if {|icecream| icecream == "strawberry"} 
       end
