@@ -30,7 +30,6 @@ def remove_strawberry(contacts)
    
   contacts.each do |name, data|
       data.each do |attribute, details|
-      if details == "strawberry"
+      if attribute == "favorite_ice_cream_flavors"
         
-        details.delete
 end
