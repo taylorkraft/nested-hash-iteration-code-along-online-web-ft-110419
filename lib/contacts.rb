@@ -29,7 +29,6 @@ def remove_strawberry(contacts)
    }
    
   contacts.each do |name, data|
-    if name == "favorite_ice_cream_flavors" do
       |data, details|
       if details == "strawberry"
         
