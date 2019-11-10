@@ -29,7 +29,7 @@ def remove_strawberry(contacts)
    }
    
   contacts.each do |name, data|
-      |data, details|
+      data.each do |data, details|
       if details == "strawberry"
         
         details.delete
