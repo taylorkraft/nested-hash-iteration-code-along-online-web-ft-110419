@@ -32,4 +32,5 @@ def remove_strawberry(contacts)
       data.each do |attribute, details|
       if attribute == "favorite_ice_cream_flavors"
         details.delete_if == "strawberry" 
+      end
 end
